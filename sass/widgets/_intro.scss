@@ -1,0 +1,35 @@
+#after-header-widgets {
+	.widget_text {
+		clear: both;
+		text-align: center;
+	}
+
+	.level-1,
+	.level-2,
+	.level-3,
+	.level-4 {
+		margin: 0 0 36px;
+		line-height: 1;
+		@include uppercase;
+	}
+
+	.level-1 {
+		@include font-size( 3.6 );
+		letter-spacing: 6px;
+	}
+
+	.level-2 {
+		@include font-size( 2.4 );
+		letter-spacing: 6px;
+	}
+
+	.level-3 {
+		@include font-size( 2.0 );
+		letter-spacing: 6px;
+	}
+
+	.level-4 {
+		@include font-size( 1.3 );
+		color: $color-meta;
+	}
+}

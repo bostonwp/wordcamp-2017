@@ -1,0 +1,70 @@
+#primary-sidebar {
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 60px 0;
+
+	&:after {
+		@include clearfix;
+		@include clearfix-after;
+	}
+
+	.wcb_widget_sponsors {
+		margin-left: -10px;
+		margin-right: -10px;
+		border-width: 2px 0 0;
+		border-style: solid;
+		border-color: $beige-dark;
+
+		.widget-title {
+			margin: 40px 10px 20px;
+			@include uppercase( 2.4, 6 );
+			text-align: center;
+		}
+
+		.sponsor-level {
+			display: inline;
+		}
+
+		.sponsor-level-title {
+			margin: 0 10px 0;
+			padding-top: 40px;
+			@include uppercase( 2.0 );
+			text-align: center;
+
+			&:after {
+				content: ' Sponsors';
+			}
+		}
+
+		.sponsor-logo {
+			float: left;
+			position: relative;
+			margin: 10px;
+			width: calc( 25% - 20px );
+			height: 110px;
+			vertical-align: middle;
+			text-align: center;
+			overflow: hidden;
+
+			img {
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%, -50%);
+				max-width: 80%;
+			}
+
+			@media (max-width: 750px ) {
+				width: calc( 33.33333% - 20px );
+			}
+
+			@media (max-width: 550px ) {
+				width: calc( 50% - 20px );
+			}
+
+			@media (max-width: 350px ) {
+				width: calc( 100% - 20px );
+			}
+		}
+	}
+}

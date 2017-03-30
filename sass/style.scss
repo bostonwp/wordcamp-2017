@@ -2,3 +2,14 @@
  * Theme Name: Boston 2017
  * Template: wordcamp-base-v2
  */
+
+@import 'variables';
+@import 'mixins';
+
+@import 'typography';
+
+@import 'header';
+@import 'widgets';
+@import 'content';
+@import 'comments';
+@import 'footer';
