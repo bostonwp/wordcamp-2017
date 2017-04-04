@@ -72,17 +72,21 @@ input[type="email"],
 input[type="url"],
 input[type="password"],
 input[type="search"],
+select,
 textarea {
 	margin: 0;
 	width: 100%;
 	@include font-size( 1.6 );
 	line-height: 1;
 	color: $color-text;
-	background-color: transparent;
-	border: none;
+	background: $beige-dark;
+	border: 1px solid $brown-light;
+	border-radius: 0;
+	box-shadow: inset 2px 2px 2px 0 rgba( $brown, 0.2 );
 
 	&:focus {
-		outline-color: $beige-dark;
+		outline: none;
+		border-color: $brown;
 	}
 }
 
@@ -92,6 +96,10 @@ input[type="url"],
 input[type="password"],
 input[type="search"] {
 	padding: 10px 20px 8px;
+}
+
+select {
+	width: auto;
 }
 
 textarea {
@@ -107,13 +115,6 @@ label {
 	font-weight: bold;
 }
 
-.grunion-radio-label,
-.grunion-checkbox-multiple-label,
-.grunion-checkbox-label {
-	font-weight: normal !important;
-}
-
-
 input[type='button'],
 input[type='submit'],
 input[type='reset'],
@@ -121,23 +122,28 @@ button,
 a.cta-button {
 	display: inline-block;
 	margin: 0;
-	padding: 20px 30px;
+	padding: 14px 30px 8px;
 	border-radius: 0;
-	@include font-size( 1.6 );
-	text-decoration: none;
+	@include uppercase( 1.2, 2 );
 	line-height: 1;
+	text-transform: uppercase;
+	text-decoration: none;
 	color: white;
-	background: transparent;
-	border: none;
+	background: $red;
+	background-image: linear-gradient(-180deg, $red 0%, $red-dark 100%);
+	border: 1px solid $red-dark;
+	border-radius: 5px;
 	text-shadow: none;
 	box-shadow: none;
 
 	@include hover-state {
 		color: white;
-		outline-color: #bbb;
-		background: transparent;
+		outline: none;
+		background: #C64711;
+		background-image: linear-gradient(-180deg, #C64711 0%, #A73F12 100%);
+		border: 1px solid #531B04;
+		border-radius: 5px;
 		box-shadow: none;
-		border: none;
 	}
 }
 
