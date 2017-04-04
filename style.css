@@ -188,10 +188,7 @@ a.cta-button {
 
 .wcfd-disabled-form.wcfd-disabled-form #wcorg-login-message a {
   color: white !important;
-  box-shadow: inset 0 -2px 0 #fff; }
-  .wcfd-disabled-form.wcfd-disabled-form #wcorg-login-message a:hover, .wcfd-disabled-form.wcfd-disabled-form #wcorg-login-message a:active, .wcfd-disabled-form.wcfd-disabled-form #wcorg-login-message a:focus {
-    text-decoration: none;
-    box-shadow: inset 0 -3px 0 #fff; }
+  text-decoration: underline; }
 
 .site-header .site-title a {
   display: block;
