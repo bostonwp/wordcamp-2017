@@ -274,6 +274,8 @@ a.cta-button {
       width: auto;
       list-style: upper-roman;
       list-style-position: inside; }
+    .main-small-navigation ul a {
+      width: 260px; }
     .main-small-navigation ul ul {
       padding: 0;
       padding-left: 30px; }
