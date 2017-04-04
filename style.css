@@ -216,6 +216,10 @@ a.cta-button {
   list-style: upper-roman;
   list-style-position: inside; }
 
+.main-navigation ul .menu-item-has-children > a:after {
+  content: '\2193';
+  margin-left: 5px; }
+
 .main-navigation ul ul {
   position: absolute;
   top: 50px;
@@ -229,8 +233,17 @@ a.cta-button {
   border-color: #C8B9A6; }
   .main-navigation ul ul li {
     list-style: none; }
+  .main-navigation ul ul .menu-item-has-children > a:after {
+    content: '';
+    margin-left: 0; }
   .main-navigation ul ul a {
     padding: 10px 20px; }
+  .main-navigation ul ul ul {
+    position: relative;
+    top: auto;
+    left: auto;
+    display: block;
+    border: none; }
 
 .main-small-navigation {
   padding: 0;

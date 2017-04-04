@@ -59,6 +59,11 @@
 			list-style-position: inside;
 		}
 
+		.menu-item-has-children > a:after {
+			content: '\2193';
+			margin-left: 5px;
+		}
+
 		ul {
 			position: absolute;
 			top: 50px;
@@ -75,8 +80,21 @@
 				list-style: none;
 			}
 
+			.menu-item-has-children > a:after {
+				content: '';
+				margin-left: 0;
+			}
+
 			a {
 				padding: 10px 20px;
+			}
+
+			ul {
+				position: relative;
+				top: auto;
+				left: auto;
+				display: block;
+				border: none;
 			}
 		}
 	}
