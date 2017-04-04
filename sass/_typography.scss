@@ -158,3 +158,18 @@ a.cta-button {
 		}
 	}
 }
+
+.wp-caption {
+	border-color: $brown-light;
+	font-style: italic;
+	color: $color-meta;
+
+	img {
+		margin: 0;
+		max-width: 100%;
+	}
+
+	.wp-caption-text {
+		margin: 10px 0 8px;
+	}
+}
