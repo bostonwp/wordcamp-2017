@@ -183,6 +183,16 @@ a.cta-button {
   .wp-caption .wp-caption-text {
     margin: 10px 0 8px; }
 
+.wcfd-disabled-form.wcfd-disabled-form #wcorg-login-message {
+  background: #B43D0A; }
+
+.wcfd-disabled-form.wcfd-disabled-form #wcorg-login-message a {
+  color: white !important;
+  box-shadow: inset 0 -2px 0 #fff; }
+  .wcfd-disabled-form.wcfd-disabled-form #wcorg-login-message a:hover, .wcfd-disabled-form.wcfd-disabled-form #wcorg-login-message a:active, .wcfd-disabled-form.wcfd-disabled-form #wcorg-login-message a:focus {
+    text-decoration: none;
+    box-shadow: inset 0 -3px 0 #fff; }
+
 .site-header .site-title a {
   display: block;
   margin: 40px 0;

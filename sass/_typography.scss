@@ -179,3 +179,21 @@ a.cta-button {
 		margin: 10px 0 8px;
 	}
 }
+
+
+.wcfd-disabled-form.wcfd-disabled-form {
+	#wcorg-login-message {
+		background: $red;
+	}
+
+	#wcorg-login-message a {
+		// Need to override awkward colors
+		color: white !important;
+		box-shadow: inset 0 -2px 0 #fff;
+
+		@include hover-state {
+			text-decoration: none;
+			box-shadow: inset 0 -3px 0 #fff;
+		}
+	}
+}
