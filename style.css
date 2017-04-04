@@ -535,6 +535,8 @@ a.cta-button {
     -moz-osx-font-smoothing: grayscale; }
     #content .entry-meta a {
       font-style: italic; }
+  #content footer.entry-meta {
+    display: none; }
   #content .entry-content,
   #content .entry-summary {
     margin: 30px 0 0; }
