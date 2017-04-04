@@ -362,15 +362,20 @@ a.cta-button {
     display: inline; }
   #before-content-widgets .jetpack_subscription_widget form,
   #before-content-widgets .widget_text form {
-    text-align: right; }
+    border-bottom: 1px solid #C8B9A6; }
+  #before-content-widgets .jetpack_subscription_widget #subscribe-email input,
+  #before-content-widgets .jetpack_subscription_widget input[type="submit"],
+  #before-content-widgets .widget_text #subscribe-email input,
+  #before-content-widgets .widget_text input[type="submit"] {
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    border-radius: 0; }
   #before-content-widgets .jetpack_subscription_widget #subscribe-email input,
   #before-content-widgets .widget_text #subscribe-email input {
     padding: 8px 2px 0;
     width: calc( 100% - 170px);
-    line-height: 20px;
-    border-width: 0 0 1px;
-    border-style: solid;
-    border-color: #C8B9A6; }
+    line-height: 20px; }
     #before-content-widgets .jetpack_subscription_widget #subscribe-email input::-webkit-input-placeholder,
     #before-content-widgets .widget_text #subscribe-email input::-webkit-input-placeholder {
       font-style: italic;
@@ -388,7 +393,8 @@ a.cta-button {
       color: #B49F81; }
   #before-content-widgets .jetpack_subscription_widget input[type="submit"],
   #before-content-widgets .widget_text input[type="submit"] {
-    margin: 0 0 0 -5px;
+    margin: 0;
+    float: right;
     padding: 8px 2px 0;
     font-size: 12px;
     font-size: 1.2rem;
@@ -398,10 +404,7 @@ a.cta-button {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     line-height: 20px;
-    color: #B43D0A;
-    border-width: 0 0 1px;
-    border-style: solid;
-    border-color: #C8B9A6; }
+    color: #B43D0A; }
   @media (max-width: 400px) {
     #before-content-widgets .jetpack_subscription_widget #subscribe-email input,
     #before-content-widgets .jetpack_subscription_widget input[type="submit"],

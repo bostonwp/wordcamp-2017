@@ -22,16 +22,21 @@
 		p { display: inline; }
 
 		form {
-			text-align: right;
+			border-bottom: 1px solid $beige-darker;
+		}
+
+		#subscribe-email input,
+		input[type="submit"] {
+			background: transparent;
+			box-shadow: none;
+			border: none;
+			border-radius: 0;
 		}
 
 		#subscribe-email input {
 			padding: 8px 2px 0;
 			width: calc( 100% - 170px);
 			line-height: 20px;
-			border-width: 0 0 1px;
-			border-style: solid;
-			border-color: $beige-darker;
 
 			&::placeholder {
 				font-style: italic;
@@ -41,14 +46,12 @@
 		}
 
 		input[type="submit"] {
-			margin: 0 0 0 -5px;
+			margin: 0;
+			float: right;
 			padding: 8px 2px 0;
 			@include uppercase( 1.2 );
 			line-height: 20px;
 			color: $red;
-			border-width: 0 0 1px;
-			border-style: solid;
-			border-color: $beige-darker;
 		}
 
 		@media ( max-width: 400px ) {
