@@ -15,9 +15,12 @@
 		}
 
 		.widget-title {
-			min-width: 460px;
 			line-height: 1.3;
 			@include uppercase( 1.8 );
+
+			@media ( min-width: 500px ) {
+				min-width: 460px;
+			}
 		}
 
 		p { display: inline; }

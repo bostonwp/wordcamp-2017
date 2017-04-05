@@ -19,7 +19,7 @@
 		}
 	}
 
-	@media ( max-width: 782px ) {
+	@media ( max-width: $bkpt-tablet ) {
 		a {
 			display: block;
 		}

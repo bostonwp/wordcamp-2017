@@ -25,6 +25,10 @@
 		margin: 0 0 10px;
 		@include uppercase( 2.4, 6 );
 
+		@media ( max-width: $bkpt-tablet ) {
+			letter-spacing: 2px;
+		}
+
 		a {
 			color: $color-text;
 
@@ -62,6 +66,10 @@
 			display: inline-block;
 			width: 25px;
 		}
+	}
+
+	@media ( max-width: 600px ) {
+		padding: 0;
 	}
 }
 
