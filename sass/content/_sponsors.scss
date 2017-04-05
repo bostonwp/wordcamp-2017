@@ -1,0 +1,22 @@
+.entry-content {
+	[class*="wcorg-sponsor-level"] {
+		margin: 0 0 40px;
+		padding: 0 0 10px;
+		border-width: 0 0 2px;
+		border-style: solid;
+		border-color: $brown-light;
+	}
+
+	.wcorg-sponsor {
+		margin-bottom: 40px;
+
+		h3 {
+			text-align: center;
+		}
+
+		.wp-post-image {
+			display: block;
+			margin: 0 auto 20px;
+		}
+	}
+}

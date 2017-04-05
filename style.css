@@ -604,6 +604,21 @@ a.cta-button {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; }
 
+.entry-content [class*="wcorg-sponsor-level"] {
+  margin: 0 0 40px;
+  padding: 0 0 10px;
+  border-width: 0 0 2px;
+  border-style: solid;
+  border-color: #B49F81; }
+
+.entry-content .wcorg-sponsor {
+  margin-bottom: 40px; }
+  .entry-content .wcorg-sponsor h3 {
+    text-align: center; }
+  .entry-content .wcorg-sponsor .wp-post-image {
+    display: block;
+    margin: 0 auto 20px; }
+
 .comments-area {
   margin: 40px 0 0; }
 
