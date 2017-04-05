@@ -568,7 +568,17 @@ a.cta-button {
       width: 25px; }
   @media (max-width: 600px) {
     #content {
-      padding: 0; } }
+      padding: 0; }
+      #content .paging-navigation,
+      #content .post-navigation {
+        margin-left: 0;
+        margin-right: 0; }
+      #content .nav-previous,
+      #content .nav-next {
+        float: none;
+        width: 100%; }
+      #content .nav-previous + .nav-next {
+        margin-top: 20px; } }
 
 .blog #content:before,
 .home:not(.page) #content:before {
