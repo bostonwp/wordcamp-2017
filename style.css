@@ -267,7 +267,8 @@ a.cta-button {
     content: '';
     margin-left: 0; }
   .main-navigation ul ul a {
-    padding: 10px 20px; }
+    padding: 10px 20px;
+    width: 260px; }
   .main-navigation ul ul ul {
     position: relative;
     top: auto;
@@ -294,8 +295,6 @@ a.cta-button {
       width: auto;
       list-style: upper-roman;
       list-style-position: inside; }
-    .main-small-navigation ul a {
-      width: 260px; }
     .main-small-navigation ul ul {
       padding: 0;
       padding-left: 30px; }
