@@ -641,6 +641,26 @@ a.cta-button {
     display: block;
     margin: 0 auto 20px; }
 
+.wcorg-organizers .wcorg-organizer {
+  margin-bottom: 60px;
+  min-height: 100px; }
+
+.wcorg-organizers h2, .wcorg-organizers p {
+  margin-left: 120px; }
+
+.wcorg-organizers .avatar {
+  float: left;
+  margin-top: -41px;
+  margin-right: 20px; }
+
+@media (max-width: 500px) {
+  .wcorg-organizers h2, .wcorg-organizers p {
+    margin-left: 0; }
+  .wcorg-organizers .avatar {
+    display: block;
+    float: none;
+    margin: 0 auto 20px; } }
+
 .comments-area {
   margin: 40px 0 0; }
 

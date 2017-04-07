@@ -1,0 +1,27 @@
+.wcorg-organizers {
+	.wcorg-organizer {
+		margin-bottom: 60px;
+		min-height: 100px;
+	}
+
+	h2, p {
+		margin-left: 120px;
+	}
+
+	.avatar {
+		float: left;
+		margin-top: -41px;
+		margin-right: 20px;
+	}
+
+	@media ( max-width: 500px ) {
+		h2, p {
+			margin-left: 0;
+		}
+		.avatar {
+			display: block;
+			float: none;
+			margin: 0 auto 20px;
+		}
+	}
+}
