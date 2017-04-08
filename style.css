@@ -651,7 +651,11 @@ a.cta-button {
 .entry-content .wcorg-sponsor {
   margin-bottom: 40px; }
   .entry-content .wcorg-sponsor h3 {
-    text-align: center; }
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden; }
   .entry-content .wcorg-sponsor .wp-post-image {
     display: block;
     margin: 0 auto 20px; }
