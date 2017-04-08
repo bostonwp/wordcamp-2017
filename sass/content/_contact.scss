@@ -1,4 +1,15 @@
 .contact-form {
+	& > div {
+		margin-bottom: 20px;
+	}
+
+	input[type="radio"],
+	input[type="checkbox"] {
+		margin-right: 5px;
+		margin-bottom: 7px !important;
+		vertical-align: middle;
+	}
+
 	.grunion-radio-label,
 	.grunion-checkbox-multiple-label,
 	.grunion-checkbox-label {
@@ -6,6 +17,7 @@
 	}
 
 	.grunion-field-label {
+		margin-bottom: 10px;
 		font-weight: normal;
 
 		span {
