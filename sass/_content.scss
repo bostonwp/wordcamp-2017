@@ -16,6 +16,16 @@
 		border-color: $beige-darker;
 	}
 
+	.wp-post-image {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.wp-post-image + .hentry {
+		margin-top: 40px;
+	}
+
 	.entry-header {
 		margin: 0;
 		text-align: center;
