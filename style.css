@@ -562,11 +562,25 @@ a.cta-button {
     text-transform: uppercase;
     letter-spacing: 3px;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; }
+    -moz-osx-font-smoothing: grayscale;
+    position: relative; }
     #content .paging-navigation .meta-nav,
     #content .post-navigation .meta-nav {
+      position: absolute;
       display: inline-block;
       width: 25px; }
+    #content .paging-navigation .nav-previous,
+    #content .post-navigation .nav-previous {
+      padding-left: 25px; }
+      #content .paging-navigation .nav-previous .meta-nav,
+      #content .post-navigation .nav-previous .meta-nav {
+        left: 0; }
+    #content .paging-navigation .nav-next,
+    #content .post-navigation .nav-next {
+      padding-right: 25px; }
+      #content .paging-navigation .nav-next .meta-nav,
+      #content .post-navigation .nav-next .meta-nav {
+        right: 0; }
   @media (max-width: 600px) {
     #content {
       padding: 0; }
