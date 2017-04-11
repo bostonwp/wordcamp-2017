@@ -105,6 +105,7 @@ select {
   width: auto;
   padding: 10px 30px 5px 15px;
   line-height: 1.5;
+  border-radius: 5px;
   box-shadow: inset 0 -30px 20px -20px #DDCBB4;
   background: #E6D4BC url("http://svg.redradar.net/boston-2017/arrows.svg") no-repeat 95% 50%;
   -moz-appearance: none;
