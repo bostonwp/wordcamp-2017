@@ -1,7 +1,20 @@
 #after-header-widgets {
 	.widget_text {
+		position: relative;
+		padding-top: 60px;
+		padding-bottom: 36px;
+		margin-bottom: 0;
 		clear: both;
 		text-align: center;
+		background-image: url( $img-map );
+		background-size: contain;
+
+		@media ( max-width: $bkpt-tablet ) {
+			margin-left: -20px;
+			margin-right: -20px;
+			padding-left: 20px;
+			padding-right: 20px;
+		}
 	}
 
 	.level-1,
@@ -26,6 +39,7 @@
 	.level-3 {
 		@include font-size( 2.0 );
 		letter-spacing: 6px;
+		margin-bottom: 0;
 	}
 
 	.level-4 {

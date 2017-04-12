@@ -12,7 +12,7 @@
 
 .main-navigation,
 .main-small-navigation {
-	margin-bottom: 60px;
+	margin: 0;
 	padding: 0;
 	@include uppercase( 1.4, 2 );
 	line-height: 16px;
