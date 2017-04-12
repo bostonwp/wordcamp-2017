@@ -11,7 +11,10 @@ body {
   font-size: 1.8rem;
   line-height: 1.555555;
   color: #514645;
-  background: #F2E0C9; }
+  background-color: #F2E0C9;
+  background-image: url("https://2017.boston.wordcamp.org/files/2017/04/wcbos-background-pattern.jpg");
+  background-repeat: repeat;
+  background-size: 50%; }
 
 button,
 input,

@@ -7,7 +7,10 @@ body {
 	@include font-size( 1.8 );
 	line-height: 1.555555;
 	color: $color-text;
-	background: $beige;
+	background-color: $beige;
+	background-image: url( 'https://2017.boston.wordcamp.org/files/2017/04/wcbos-background-pattern.jpg' );
+	background-repeat: repeat;
+	background-size: 50%;
 }
 
 button,
