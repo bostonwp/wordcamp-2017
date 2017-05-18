@@ -25,3 +25,5 @@ add_filter( 'wcpt_session_post_speaker_info_enabled_site_ids', 'boston_2017_enab
 add_filter( 'wcpt_session_post_slides_info_enabled_site_ids',  'boston_2017_enable_features' );
 add_filter( 'wcpt_session_post_video_info_enabled_site_ids',   'boston_2017_enable_features' );
 add_filter( 'wcpt_speaker_post_session_info_enabled_site_ids', 'boston_2017_enable_features' );
+
+require_once __DIR__ . '/mock-widget-subscriptions.php';
