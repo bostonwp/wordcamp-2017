@@ -173,16 +173,21 @@ a.cta-button {
     border-radius: 5px;
     box-shadow: none; }
 
+.widget .callout,
 .entry-content .callout {
   position: relative;
   margin-bottom: 15px;
   padding: 20px;
   background: #B43D0A;
   color: white; }
+  .widget .callout a,
   .entry-content .callout a {
     color: white;
     box-shadow: inset 0 -2px 0 #fff; }
-    .entry-content .callout a:hover, .entry-content .callout a:active, .entry-content .callout a:focus {
+    .widget .callout a:hover, .widget .callout a:active, .widget .callout a:focus,
+    .entry-content .callout a:hover,
+    .entry-content .callout a:active,
+    .entry-content .callout a:focus {
       text-decoration: none;
       box-shadow: inset 0 -3px 0 #fff; }
 
@@ -362,7 +367,7 @@ a.cta-button {
   color: #70655E; }
 
 #before-content-widgets .jetpack_subscription_widget,
-#before-content-widgets .widget_text {
+#before-content-widgets .mock_subscription_widget {
   padding: 30px 0;
   display: -ms-flexbox;
   display: flex;
@@ -374,13 +379,11 @@ a.cta-button {
   border-style: solid;
   border-color: #C8B9A6; }
   #before-content-widgets .jetpack_subscription_widget .widget-title,
-  #before-content-widgets .jetpack_subscription_widget .textwidget,
-  #before-content-widgets .widget_text .widget-title,
-  #before-content-widgets .widget_text .textwidget {
+  #before-content-widgets .mock_subscription_widget .widget-title {
     -ms-flex: 1;
         flex: 1; }
   #before-content-widgets .jetpack_subscription_widget .widget-title,
-  #before-content-widgets .widget_text .widget-title {
+  #before-content-widgets .mock_subscription_widget .widget-title {
     line-height: 1.3;
     font-size: 18px;
     font-size: 1.8rem;
@@ -391,45 +394,45 @@ a.cta-button {
     -moz-osx-font-smoothing: grayscale; }
     @media (min-width: 500px) {
       #before-content-widgets .jetpack_subscription_widget .widget-title,
-      #before-content-widgets .widget_text .widget-title {
+      #before-content-widgets .mock_subscription_widget .widget-title {
         min-width: 460px; } }
   #before-content-widgets .jetpack_subscription_widget p,
-  #before-content-widgets .widget_text p {
+  #before-content-widgets .mock_subscription_widget p {
     display: inline; }
   #before-content-widgets .jetpack_subscription_widget form,
-  #before-content-widgets .widget_text form {
+  #before-content-widgets .mock_subscription_widget form {
     width: 100%;
     border-bottom: 1px solid #C8B9A6; }
   #before-content-widgets .jetpack_subscription_widget #subscribe-email input,
   #before-content-widgets .jetpack_subscription_widget input[type="submit"],
-  #before-content-widgets .widget_text #subscribe-email input,
-  #before-content-widgets .widget_text input[type="submit"] {
+  #before-content-widgets .mock_subscription_widget #subscribe-email input,
+  #before-content-widgets .mock_subscription_widget input[type="submit"] {
     background: transparent;
     box-shadow: none;
     border: none;
     border-radius: 0; }
   #before-content-widgets .jetpack_subscription_widget #subscribe-email input,
-  #before-content-widgets .widget_text #subscribe-email input {
+  #before-content-widgets .mock_subscription_widget #subscribe-email input {
     padding: 8px 2px 0;
     width: calc( 100% - 170px);
     line-height: 20px; }
     #before-content-widgets .jetpack_subscription_widget #subscribe-email input::-webkit-input-placeholder,
-    #before-content-widgets .widget_text #subscribe-email input::-webkit-input-placeholder {
+    #before-content-widgets .mock_subscription_widget #subscribe-email input::-webkit-input-placeholder {
       font-style: italic;
       text-transform: lowercase;
       color: #B49F81; }
     #before-content-widgets .jetpack_subscription_widget #subscribe-email input:-ms-input-placeholder,
-    #before-content-widgets .widget_text #subscribe-email input:-ms-input-placeholder {
+    #before-content-widgets .mock_subscription_widget #subscribe-email input:-ms-input-placeholder {
       font-style: italic;
       text-transform: lowercase;
       color: #B49F81; }
     #before-content-widgets .jetpack_subscription_widget #subscribe-email input::placeholder,
-    #before-content-widgets .widget_text #subscribe-email input::placeholder {
+    #before-content-widgets .mock_subscription_widget #subscribe-email input::placeholder {
       font-style: italic;
       text-transform: lowercase;
       color: #B49F81; }
   #before-content-widgets .jetpack_subscription_widget input[type="submit"],
-  #before-content-widgets .widget_text input[type="submit"] {
+  #before-content-widgets .mock_subscription_widget input[type="submit"] {
     margin: 0;
     float: right;
     padding: 8px 2px 0;
@@ -445,22 +448,22 @@ a.cta-button {
   @media (max-width: 400px) {
     #before-content-widgets .jetpack_subscription_widget #subscribe-email input,
     #before-content-widgets .jetpack_subscription_widget input[type="submit"],
-    #before-content-widgets .widget_text #subscribe-email input,
-    #before-content-widgets .widget_text input[type="submit"] {
+    #before-content-widgets .mock_subscription_widget #subscribe-email input,
+    #before-content-widgets .mock_subscription_widget input[type="submit"] {
       display: block;
       margin: 0;
       width: 100%; } }
   @media (max-width: 782px) {
     #before-content-widgets .jetpack_subscription_widget,
-    #before-content-widgets .widget_text {
+    #before-content-widgets .mock_subscription_widget {
       display: block; }
       #before-content-widgets .jetpack_subscription_widget .widget-title,
       #before-content-widgets .jetpack_subscription_widget .textwidget form,
-      #before-content-widgets .widget_text .widget-title,
-      #before-content-widgets .widget_text .textwidget form {
+      #before-content-widgets .mock_subscription_widget .widget-title,
+      #before-content-widgets .mock_subscription_widget .textwidget form {
         text-align: center; }
       #before-content-widgets .jetpack_subscription_widget .widget-title,
-      #before-content-widgets .widget_text .widget-title {
+      #before-content-widgets .mock_subscription_widget .widget-title {
         margin-bottom: 10px; } }
 
 #primary-sidebar {
@@ -527,6 +530,17 @@ a.cta-button {
       @media (max-width: 350px) {
         #primary-sidebar .wcb_widget_sponsors .sponsor-logo {
           width: calc( 100% - 20px); } }
+
+#before-content-widgets .widget_text {
+  margin-bottom: 0;
+  border-width: 2px 0 0;
+  border-style: solid;
+  border-color: #C8B9A6;
+  font-size: 24px;
+  font-size: 2.4rem; }
+  #before-content-widgets .widget_text p {
+    margin: 0;
+    text-align: center; }
 
 #main {
   clear: both;
