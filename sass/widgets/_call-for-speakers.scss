@@ -1,0 +1,14 @@
+#before-content-widgets {
+	.widget_text {
+		margin-bottom: 0;
+		border-width: 2px 0 0;
+		border-style: solid;
+		border-color: $beige-darker;
+		@include font-size( 2.4 );
+
+		p {
+			margin: 0;
+			text-align: center;
+		}
+	}
+}
