@@ -56,6 +56,11 @@
 			@include uppercase( 1.2 );
 			line-height: 20px;
 			color: $red;
+
+			&:hover,
+			&:focus {
+				outline: 1px dotted;
+			}
 		}
 
 		@media ( max-width: 400px ) {

@@ -445,6 +445,10 @@ a.cta-button {
     -moz-osx-font-smoothing: grayscale;
     line-height: 20px;
     color: #B43D0A; }
+    #before-content-widgets .jetpack_subscription_widget input[type="submit"]:hover, #before-content-widgets .jetpack_subscription_widget input[type="submit"]:focus,
+    #before-content-widgets .mock_subscription_widget input[type="submit"]:hover,
+    #before-content-widgets .mock_subscription_widget input[type="submit"]:focus {
+      outline: 1px dotted; }
   @media (max-width: 400px) {
     #before-content-widgets .jetpack_subscription_widget #subscribe-email input,
     #before-content-widgets .jetpack_subscription_widget input[type="submit"],
@@ -734,6 +738,119 @@ a.cta-button {
     display: block;
     float: none;
     margin: 0 auto 20px; } }
+
+.tix_tickets_table .tix-column-description,
+.tix-ticket-form .tix-column-description {
+  max-width: 200px; }
+
+.tix_tickets_table td.tix-column-description,
+.tix-ticket-form td.tix-column-description {
+  padding-top: 15px; }
+
+.tix_tickets_table .tix-column-remaining,
+.tix-ticket-form .tix-column-remaining {
+  display: none; }
+
+.tix_tickets_table .tix-column-quantity,
+.tix-ticket-form .tix-column-quantity {
+  text-align: right; }
+
+.tix_tickets_table .tix-row-coupon td,
+.tix-ticket-form .tix-row-coupon td {
+  padding-top: 15px; }
+
+.tix_tickets_table th,
+.tix-ticket-form th {
+  font-size: 14px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+#tix {
+  margin-bottom: 30px; }
+  #tix .tix-error {
+    background: #f6e8e0;
+    border: solid 1px #B43D0A; }
+
+.tix-order-summary .tix-column-quantity {
+  text-align: left; }
+
+.tix-order-summary .tix-row-total td,
+.tix-order-summary .tix-column-price {
+  text-align: right; }
+
+.tix-order-summary .tix-row-total td {
+  padding-top: 15px; }
+
+.tix-attendee-form th, .tix-attendee-form td {
+  padding-bottom: 20px; }
+
+.tix-attendee-form .tix-right {
+  padding-left: 8px; }
+  .tix-attendee-form .tix-right label {
+    font-weight: normal; }
+  .tix-attendee-form .tix-right br {
+    display: none; }
+  .tix-attendee-form .tix-right textarea {
+    width: 100%;
+    height: 150px;
+    resize: vertical; }
+
+#tix-coupon-container {
+  width: 100%;
+  border-bottom: 1px solid #C8B9A6; }
+  #tix-coupon-container:before {
+    content: 'Coupon Code:';
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+    font-size: 16px;
+    font-size: 1.6rem;
+    color: #70655E; }
+  #tix-coupon-container input {
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    border-radius: 0; }
+  #tix-coupon-container #tix-coupon-input {
+    padding: 8px 2px 0;
+    width: calc( 100% - 250px);
+    line-height: 20px; }
+    #tix-coupon-container #tix-coupon-input::-webkit-input-placeholder {
+      font-style: italic;
+      text-transform: lowercase;
+      color: #B49F81; }
+    #tix-coupon-container #tix-coupon-input:-ms-input-placeholder {
+      font-style: italic;
+      text-transform: lowercase;
+      color: #B49F81; }
+    #tix-coupon-container #tix-coupon-input::placeholder {
+      font-style: italic;
+      text-transform: lowercase;
+      color: #B49F81; }
+  #tix-coupon-container input[name="tix_coupon_submit"] {
+    margin: 0;
+    float: right;
+    padding: 8px 2px 0;
+    font-size: 12px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 20px;
+    color: #B43D0A; }
+    #tix-coupon-container input[name="tix_coupon_submit"]:hover, #tix-coupon-container input[name="tix_coupon_submit"]:focus {
+      outline: 1px dotted; }
+  @media (max-width: 400px) {
+    #tix-coupon-container input {
+      display: block;
+      margin: 0;
+      width: 100%; } }
 
 .comments-area {
   margin: 40px 0 0; }
