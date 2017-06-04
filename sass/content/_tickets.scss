@@ -77,6 +77,8 @@
 #tix-coupon-container {
 	width: 100%;
 	border-bottom: 1px solid $beige-darker;
+	display: flex !important;
+	align-items: baseline;
 
 	&:before {
 		content: 'Coupon Code:';

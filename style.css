@@ -801,7 +801,11 @@ a.cta-button {
 
 #tix-coupon-container {
   width: 100%;
-  border-bottom: 1px solid #C8B9A6; }
+  border-bottom: 1px solid #C8B9A6;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-align: baseline;
+      align-items: baseline; }
   #tix-coupon-container:before {
     content: 'Coupon Code:';
     display: inline-block;
