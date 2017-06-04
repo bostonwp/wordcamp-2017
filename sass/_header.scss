@@ -49,6 +49,12 @@
 		@media ( max-width: 900px ) {
 			display: none;
 		}
+
+		&:hover > ul,
+		&.focus > ul {
+			left: auto;
+			right: 0;
+		}
 	}
 
 	ul {
