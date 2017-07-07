@@ -329,7 +329,7 @@ a.cta-button {
   clear: both;
   text-align: center;
   background-image: url("https://2017.boston.wordcamp.org/files/2017/04/wcbos-header-image-coloradjust.png");
-  background-size: contain; }
+  background-size: cover; }
   @media (max-width: 782px) {
     #after-header-widgets .widget_text {
       margin-left: -20px;
@@ -340,7 +340,8 @@ a.cta-button {
 #after-header-widgets .level-1,
 #after-header-widgets .level-2,
 #after-header-widgets .level-3,
-#after-header-widgets .level-4 {
+#after-header-widgets .level-4,
+#after-header-widgets .level-5 {
   margin: 0 0 36px;
   line-height: 1;
   font-weight: bold;
@@ -362,13 +363,18 @@ a.cta-button {
 #after-header-widgets .level-3 {
   font-size: 20px;
   font-size: 2rem;
-  letter-spacing: 6px;
-  margin-bottom: 0; }
+  letter-spacing: 6px; }
 
 #after-header-widgets .level-4 {
   font-size: 13px;
   font-size: 1.3rem;
   color: #70655E; }
+
+#after-header-widgets .level-5 {
+  margin-bottom: 0; }
+  #after-header-widgets .level-5 .cta-button {
+    font-size: 13px;
+    font-size: 1.3rem; }
 
 #before-content-widgets .jetpack_subscription_widget,
 #before-content-widgets .mock_subscription_widget {

@@ -39,7 +39,7 @@ function boston_2017_force_widgets() {
 
 	$banner = array(
 		'title' => '',
-		'text' => '<p class="level-1">WordCamp Boston</p><p class="level-4">taking place at</p><p class="level-2">Boston University</p><p class="level-4">on</p><p class="level-3">July 22 &amp; 23</p>',
+		'text' => '<p class="level-1">WordCamp Boston</p><p class="level-4">taking place at</p><p class="level-2">Boston University</p><p class="level-4">on</p><p class="level-3">July 22 &amp; 23</p><p class="level-5"><a href="#" class="cta-button">Get your ticket</a></p>',
 		'filter' => false,
 	);
 	$twitter = array(
