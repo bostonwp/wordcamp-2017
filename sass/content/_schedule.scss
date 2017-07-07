@@ -1,0 +1,123 @@
+.page-slug-schedule {
+	#content {
+		max-width: 100%;
+		padding: 0;
+	}
+}
+
+.wcpt-schedule {
+	margin-bottom: 60px;
+
+	th {
+		padding: 20px 15px 5px;
+		@include uppercase( 1.6, 3 );
+		border-bottom: 2px solid $beige-darker;
+		color: $red;
+		text-align: center;
+	}
+
+	.wcpt-track-description {
+		display: block;
+		font-weight: normal;
+		@include font-size( 1.4 );
+		text-transform: none;
+		letter-spacing: 0;
+		color: $color-text;
+	}
+
+	.wcpt-session-type-session:before {
+		border: none;
+		@include uppercase( 2 );
+		color: $red;
+	}
+
+	td {
+		@include font-size( 1.8 );
+		box-sizing: border-box;
+		padding: 20px 15px;
+		border-bottom: 2px solid $beige-darker;
+
+		@media screen and (min-width: 701px) {
+			width: 22.5%;
+			border-right: 2px solid $beige-darker;
+
+			&.wcpt-time {
+				padding-left: 0;
+				width: 10%;
+			}
+		}
+
+		@media screen and (max-width: 700px) {
+			margin-bottom: 0;
+
+			&:last-of-type {
+				border-bottom: none;
+			}
+		}
+	}
+
+	.global-session td {
+		text-align: center;
+
+		&.wcpt-time {
+			text-align: left;
+		}
+	}
+
+	.wcpt-session-title {}
+
+	.wcpt-session-speakers {
+		display: block;
+		font-style: italic;
+	}
+
+	td[class*='wcb-track']:before {
+		display: block;
+		margin-bottom: 5px;
+		@include uppercase( 1.2, 1 );
+		color: $color-text;
+	}
+	// Customized for grid-schedule. Smaller screens go single col and use track names to label rooms.
+	@media screen and (min-width: 701px) {
+		.wcb-track-advanced-developers:before {
+			content: 'Advanced Development';
+		}
+		.wcb-track-business:before {
+			content: 'Business';
+		}
+		.wcb-track-designers:before {
+			content: 'Design';
+		}
+		.wcb-track-developers:before {
+			content: 'Development';
+		}
+		.wcb-track-everyone:before {
+			content: 'Everyone';
+		}
+		.wcb-track-higher-education:before {
+			content: 'Higher Education';
+		}
+		.wcb-track-intro-to-development:before {
+			content: 'Intro to Development';
+		}
+		.wcb-track-intro-to-wordpress:before {
+			content: 'Intro to WordPress';
+		}
+		.wcb-track-users:before {
+			content: 'Users';
+		}
+		.wcb-track-writers:before {
+			content: 'Writers';
+		}
+		.global-session td:before {
+			content: '';
+		}
+	}
+
+	// Fix global session location
+	@media screen and (max-width: 700px) {
+		.global-session td[class*='wcb-track']:before {
+			content: 'Large Ballroom';
+		}
+	}
+}

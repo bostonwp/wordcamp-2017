@@ -866,6 +866,105 @@ a.cta-button {
       margin: 0;
       width: 100%; } }
 
+.page-slug-schedule #content {
+  max-width: 100%;
+  padding: 0; }
+
+.wcpt-schedule {
+  margin-bottom: 60px; }
+  .wcpt-schedule th {
+    padding: 20px 15px 5px;
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    border-bottom: 2px solid #C8B9A6;
+    color: #B43D0A;
+    text-align: center; }
+  .wcpt-schedule .wcpt-track-description {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    font-size: 1.4rem;
+    text-transform: none;
+    letter-spacing: 0;
+    color: #514645; }
+  .wcpt-schedule .wcpt-session-type-session:before {
+    border: none;
+    font-size: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #B43D0A; }
+  .wcpt-schedule td {
+    font-size: 18px;
+    font-size: 1.8rem;
+    box-sizing: border-box;
+    padding: 20px 15px;
+    border-bottom: 2px solid #C8B9A6; }
+    @media screen and (min-width: 701px) {
+      .wcpt-schedule td {
+        width: 22.5%;
+        border-right: 2px solid #C8B9A6; }
+        .wcpt-schedule td.wcpt-time {
+          padding-left: 0;
+          width: 10%; } }
+    @media screen and (max-width: 700px) {
+      .wcpt-schedule td {
+        margin-bottom: 0; }
+        .wcpt-schedule td:last-of-type {
+          border-bottom: none; } }
+  .wcpt-schedule .global-session td {
+    text-align: center; }
+    .wcpt-schedule .global-session td.wcpt-time {
+      text-align: left; }
+  .wcpt-schedule .wcpt-session-speakers {
+    display: block;
+    font-style: italic; }
+  .wcpt-schedule td[class*='wcb-track']:before {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #514645; }
+  @media screen and (min-width: 701px) {
+    .wcpt-schedule .wcb-track-advanced-developers:before {
+      content: 'Advanced Development'; }
+    .wcpt-schedule .wcb-track-business:before {
+      content: 'Business'; }
+    .wcpt-schedule .wcb-track-designers:before {
+      content: 'Design'; }
+    .wcpt-schedule .wcb-track-developers:before {
+      content: 'Development'; }
+    .wcpt-schedule .wcb-track-everyone:before {
+      content: 'Everyone'; }
+    .wcpt-schedule .wcb-track-higher-education:before {
+      content: 'Higher Education'; }
+    .wcpt-schedule .wcb-track-intro-to-development:before {
+      content: 'Intro to Development'; }
+    .wcpt-schedule .wcb-track-intro-to-wordpress:before {
+      content: 'Intro to WordPress'; }
+    .wcpt-schedule .wcb-track-users:before {
+      content: 'Users'; }
+    .wcpt-schedule .wcb-track-writers:before {
+      content: 'Writers'; }
+    .wcpt-schedule .global-session td:before {
+      content: ''; } }
+  @media screen and (max-width: 700px) {
+    .wcpt-schedule .global-session td[class*='wcb-track']:before {
+      content: 'Large Ballroom'; } }
+
 .comments-area {
   margin: 40px 0 0; }
 
