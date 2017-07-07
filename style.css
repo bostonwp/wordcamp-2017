@@ -965,6 +965,54 @@ a.cta-button {
     .wcpt-schedule .global-session td[class*='wcb-track']:before {
       content: 'Large Ballroom'; } }
 
+.speaker-gravatar-list {
+  display: none; }
+
+.wcorg-speakers .wcorg-speaker {
+  position: relative;
+  clear: both;
+  padding: 140px 0 40px;
+  border-bottom: 2px solid #E6D4BC; }
+  .wcorg-speakers .wcorg-speaker + .wcorg-speaker {
+    margin-top: 40px; }
+
+.wcorg-speakers h2 {
+  margin: 0 0 15px;
+  text-align: center;
+  text-transform: none;
+  font-size: 22px;
+  font-size: 2.2rem;
+  line-height: 1;
+  letter-spacing: 0;
+  color: #B43D0A; }
+
+.wcorg-speakers .avatar {
+  position: absolute;
+  top: 0;
+  left: calc( 50% - 53px);
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 15px;
+  border: 3px solid #C8B9A6; }
+
+.wcorg-speakers:after {
+  content: "";
+  display: table;
+  table-layout: fixed;
+  clear: both; }
+
+.single-wcb_speaker .entry-meta {
+  display: none; }
+
+.single-wcb_speaker .speaker-avatar {
+  text-align: center; }
+
+.single-wcb_speaker .speaker-avatar img {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 15px;
+  border: 3px solid #C8B9A6; }
+
 .comments-area {
   margin: 40px 0 0; }
 
