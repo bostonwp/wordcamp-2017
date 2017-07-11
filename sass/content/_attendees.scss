@@ -1,0 +1,44 @@
+.page-slug-attendees {
+	#content {
+		max-width: 100%;
+		padding: 0;
+	}
+
+	#tix-attendees {
+		li {
+			padding: 15px;
+		}
+
+		.tix-field {
+			margin-left: 90px;
+			@include font-size( 1.8 );
+		}
+
+		.avatar {
+			width: 75px;
+			height: 75px;
+		}
+
+		.tix-attendee-name {
+			font-weight: bold;
+		}
+
+		.tix-attendee-twitter,
+		.tix-attendee-url {
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+
+		@media ( max-width: 760px ) {
+			.tix-columns-3 li {
+				width: 50%;
+			}
+		}
+
+		@media ( max-width: 500px ) {
+			.tix-columns-3 li {
+				width: 100%;
+			}
+		}
+	}
+}

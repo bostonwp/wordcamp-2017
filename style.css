@@ -1013,6 +1013,38 @@ a.cta-button {
   margin: 0 auto 15px;
   border: 3px solid #C8B9A6; }
 
+.page-slug-attendees #content {
+  max-width: 100%;
+  padding: 0; }
+
+.page-slug-attendees #tix-attendees li {
+  padding: 15px; }
+
+.page-slug-attendees #tix-attendees .tix-field {
+  margin-left: 90px;
+  font-size: 18px;
+  font-size: 1.8rem; }
+
+.page-slug-attendees #tix-attendees .avatar {
+  width: 75px;
+  height: 75px; }
+
+.page-slug-attendees #tix-attendees .tix-attendee-name {
+  font-weight: bold; }
+
+.page-slug-attendees #tix-attendees .tix-attendee-twitter,
+.page-slug-attendees #tix-attendees .tix-attendee-url {
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+@media (max-width: 760px) {
+  .page-slug-attendees #tix-attendees .tix-columns-3 li {
+    width: 50%; } }
+
+@media (max-width: 500px) {
+  .page-slug-attendees #tix-attendees .tix-columns-3 li {
+    width: 100%; } }
+
 .comments-area {
   margin: 40px 0 0; }
 
