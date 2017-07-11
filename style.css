@@ -1019,7 +1019,13 @@ a.cta-button {
 
 .page-slug-attendees #tix-attendees li,
 .page-slug-sponsors #tix-attendees li {
-  padding: 15px; }
+  padding: 10px; }
+  .page-slug-attendees #tix-attendees li:nth-of-type(3n + 1),
+  .page-slug-sponsors #tix-attendees li:nth-of-type(3n + 1) {
+    padding-left: 0; }
+  .page-slug-attendees #tix-attendees li:nth-of-type(3n),
+  .page-slug-sponsors #tix-attendees li:nth-of-type(3n) {
+    padding-right: 0; }
 
 .page-slug-attendees #tix-attendees .tix-field,
 .page-slug-sponsors #tix-attendees .tix-field {
@@ -1046,12 +1052,20 @@ a.cta-button {
 @media (max-width: 760px) {
   .page-slug-attendees #tix-attendees .tix-columns-3 li,
   .page-slug-sponsors #tix-attendees .tix-columns-3 li {
-    width: 50%; } }
+    width: 50%;
+    padding: 10px; }
+    .page-slug-attendees #tix-attendees .tix-columns-3 li:nth-of-type(2n + 1),
+    .page-slug-sponsors #tix-attendees .tix-columns-3 li:nth-of-type(2n + 1) {
+      padding-left: 0; }
+    .page-slug-attendees #tix-attendees .tix-columns-3 li:nth-of-type(2n),
+    .page-slug-sponsors #tix-attendees .tix-columns-3 li:nth-of-type(2n) {
+      padding-right: 0; } }
 
 @media (max-width: 500px) {
   .page-slug-attendees #tix-attendees .tix-columns-3 li,
   .page-slug-sponsors #tix-attendees .tix-columns-3 li {
-    width: 100%; } }
+    width: 100%;
+    padding: 10px 0; } }
 
 .comments-area {
   margin: 40px 0 0; }
