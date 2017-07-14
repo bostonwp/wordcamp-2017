@@ -121,3 +121,77 @@
 		}
 	}
 }
+
+// Add end time
+.wcpt-time:after {
+	display: block;
+
+	.wcpt-time-800am & {
+		content: '– 9:00 am';
+	}
+	.wcpt-time-900am & {
+		content: '– 9:10 am';
+	}
+	.wcpt-time-910am & {
+		content: '– 10:00 am';
+	}
+	.wcpt-time-1010am & {
+		content: '– 10:50 am';
+	}
+	.wcpt-schedule-saturday .wcpt-time-1100am & {
+		content: '– 11:40 am';
+	}
+	.wcpt-time-1150am & {
+		content: '– 12:30 pm';
+	}
+	.wcpt-time-1230pm & {
+		content: '– 2:00 pm';
+	}
+	.wcpt-time-200pm & {
+		content: '– 2:40 pm';
+	}
+	.wcpt-time-250pm & {
+		content: '– 3:30 pm';
+	}
+	.wcpt-time-330pm & {
+		content: '– 3:50 pm';
+	}
+	.wcpt-time-350pm & {
+		content: '– 4:30 pm';
+	}
+	.wcpt-time-440pm & {
+		content: '– 5:20 pm';
+	}
+	.wcpt-time-530pm & {
+		content: '– 9:00 pm';
+	}
+
+	// Sunday
+	.wcpt-schedule-sunday .wcpt-time-1100am & {
+		content: '– 11:30 am';
+	}
+	.wcpt-time-1130am & {
+		content: '– 12:10 pm';
+	}
+	.wcpt-time-1220pm & {
+		content: '– 1:00 pm';
+	}
+	.wcpt-time-110pm & {
+		content: '– 1:50 pm';
+	}
+	.wcpt-time-150pm & {
+		content: '– 2:10 pm';
+	}
+	.wcpt-time-210pm & {
+		content: '– 2:50 pm';
+	}
+	.wcpt-time-300pm & {
+		content: '– 3:40 pm';
+	}
+
+	// Fix global session location
+	@media screen and (max-width: 700px) {
+		display: inline-block;
+		margin-left: 5px;
+	}
+}

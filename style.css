@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**!
  * Theme Name: Boston 2017
  * Template: wordcamp-base-v2
@@ -964,6 +965,53 @@ a.cta-button {
   @media screen and (max-width: 700px) {
     .wcpt-schedule .global-session td[class*='wcb-track']:before {
       content: 'Large Ballroom'; } }
+
+.wcpt-time:after {
+  display: block; }
+  .wcpt-time-800am .wcpt-time:after {
+    content: '– 9:00 am'; }
+  .wcpt-time-900am .wcpt-time:after {
+    content: '– 9:10 am'; }
+  .wcpt-time-910am .wcpt-time:after {
+    content: '– 10:00 am'; }
+  .wcpt-time-1010am .wcpt-time:after {
+    content: '– 10:50 am'; }
+  .wcpt-schedule-saturday .wcpt-time-1100am .wcpt-time:after {
+    content: '– 11:40 am'; }
+  .wcpt-time-1150am .wcpt-time:after {
+    content: '– 12:30 pm'; }
+  .wcpt-time-1230pm .wcpt-time:after {
+    content: '– 2:00 pm'; }
+  .wcpt-time-200pm .wcpt-time:after {
+    content: '– 2:40 pm'; }
+  .wcpt-time-250pm .wcpt-time:after {
+    content: '– 3:30 pm'; }
+  .wcpt-time-330pm .wcpt-time:after {
+    content: '– 3:50 pm'; }
+  .wcpt-time-350pm .wcpt-time:after {
+    content: '– 4:30 pm'; }
+  .wcpt-time-440pm .wcpt-time:after {
+    content: '– 5:20 pm'; }
+  .wcpt-time-530pm .wcpt-time:after {
+    content: '– 9:00 pm'; }
+  .wcpt-schedule-sunday .wcpt-time-1100am .wcpt-time:after {
+    content: '– 11:30 am'; }
+  .wcpt-time-1130am .wcpt-time:after {
+    content: '– 12:10 pm'; }
+  .wcpt-time-1220pm .wcpt-time:after {
+    content: '– 1:00 pm'; }
+  .wcpt-time-110pm .wcpt-time:after {
+    content: '– 1:50 pm'; }
+  .wcpt-time-150pm .wcpt-time:after {
+    content: '– 2:10 pm'; }
+  .wcpt-time-210pm .wcpt-time:after {
+    content: '– 2:50 pm'; }
+  .wcpt-time-300pm .wcpt-time:after {
+    content: '– 3:40 pm'; }
+  @media screen and (max-width: 700px) {
+    .wcpt-time:after {
+      display: inline-block;
+      margin-left: 5px; } }
 
 .speaker-gravatar-list {
   display: none; }
