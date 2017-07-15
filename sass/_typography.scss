@@ -181,9 +181,7 @@ a.cta-button {
 }
 
 .wp-caption {
-	border-color: $brown-light;
-	font-style: italic;
-	color: $color-meta;
+	border: none;
 
 	img {
 		margin: 0;
@@ -192,6 +190,7 @@ a.cta-button {
 
 	.wp-caption-text {
 		margin: 10px 0 8px;
+		text-align: left:
 	}
 }
 
