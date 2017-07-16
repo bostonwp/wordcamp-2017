@@ -193,14 +193,13 @@ a.cta-button {
       box-shadow: inset 0 -3px 0 #fff; }
 
 .wp-caption {
-  border-color: #B49F81;
-  font-style: italic;
-  color: #70655E; }
+  border: none; }
   .wp-caption img {
     margin: 0;
     max-width: 100%; }
   .wp-caption .wp-caption-text {
-    margin: 10px 0 8px; }
+    margin: 10px 0 8px;
+    text-align: left; }
 
 .wcfd-disabled-form.wcfd-disabled-form #wcorg-login-message {
   background: #B43D0A; }
