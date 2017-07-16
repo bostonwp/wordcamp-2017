@@ -193,7 +193,8 @@ a.cta-button {
       box-shadow: inset 0 -3px 0 #fff; }
 
 .wp-caption {
-  border: none; }
+  border: none;
+  margin-bottom: 1em; }
   .wp-caption img {
     margin: 0;
     max-width: 100%; }
