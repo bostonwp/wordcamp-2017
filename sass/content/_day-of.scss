@@ -1,0 +1,26 @@
+.page-slug-welcome-to-wordcamp-boston-2017 {
+	#content {
+		max-width: 100%;
+		padding: 0;
+	}
+
+	.site-header .site-title a {
+		text-indent: 0;
+		text-align: center;
+		line-height: 185px;
+		@include uppercase( 4.8, 6 );
+		color: $color-text;
+		text-shadow:  1px  1px 0 $beige,
+		              1px -1px 0 $beige,
+		             -1px  1px 0 $beige,
+		             -1px -1px 0 $beige,
+		              2px  2px 0 $beige,
+		              2px -2px 0 $beige,
+		             -2px  2px 0 $beige,
+		             -2px -2px 0 $beige;
+
+		@include hover-state {
+			text-decoration: none;
+		}
+	}
+}
