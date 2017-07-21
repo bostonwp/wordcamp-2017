@@ -2,12 +2,23 @@
 	#content {
 		max-width: 100%;
 		padding: 60px 0;
+
+		@media ( max-width: 599px ) {
+			padding: 0;
+		}
+	}
+
+	.site-header .site-title {
+		display: table;
+		width: 100%;
+		margin: 40px 0;
 	}
 
 	.site-header .site-title a {
+		display: table-cell;
 		text-indent: 0;
 		text-align: center;
-		line-height: 185px;
+		vertical-align: middle;
 		@include uppercase( 4.8, 6 );
 		color: $color-text;
 		text-shadow:  1px  1px 0 $beige,
@@ -21,6 +32,14 @@
 
 		@include hover-state {
 			text-decoration: none;
+		}
+
+		@media ( max-width: 760px ) {
+			@include uppercase( 3.8, 4 );
+		}
+
+		@media ( max-width: 400px ) {
+			@include uppercase( 2.4, 4 );
 		}
 	}
 }

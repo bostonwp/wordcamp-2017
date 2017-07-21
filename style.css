@@ -1118,11 +1118,20 @@ a.cta-button {
 .page-slug-welcome-to-wordcamp-boston-2017 #content {
   max-width: 100%;
   padding: 60px 0; }
+  @media (max-width: 599px) {
+    .page-slug-welcome-to-wordcamp-boston-2017 #content {
+      padding: 0; } }
+
+.page-slug-welcome-to-wordcamp-boston-2017 .site-header .site-title {
+  display: table;
+  width: 100%;
+  margin: 40px 0; }
 
 .page-slug-welcome-to-wordcamp-boston-2017 .site-header .site-title a {
+  display: table-cell;
   text-indent: 0;
   text-align: center;
-  line-height: 185px;
+  vertical-align: middle;
   font-size: 48px;
   font-size: 4.8rem;
   font-weight: bold;
@@ -1134,6 +1143,24 @@ a.cta-button {
   text-shadow: 1px 1px 0 #F2E0C9, 1px -1px 0 #F2E0C9, -1px 1px 0 #F2E0C9, -1px -1px 0 #F2E0C9, 2px 2px 0 #F2E0C9, 2px -2px 0 #F2E0C9, -2px 2px 0 #F2E0C9, -2px -2px 0 #F2E0C9; }
   .page-slug-welcome-to-wordcamp-boston-2017 .site-header .site-title a:hover, .page-slug-welcome-to-wordcamp-boston-2017 .site-header .site-title a:active, .page-slug-welcome-to-wordcamp-boston-2017 .site-header .site-title a:focus {
     text-decoration: none; }
+  @media (max-width: 760px) {
+    .page-slug-welcome-to-wordcamp-boston-2017 .site-header .site-title a {
+      font-size: 38px;
+      font-size: 3.8rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale; } }
+  @media (max-width: 400px) {
+    .page-slug-welcome-to-wordcamp-boston-2017 .site-header .site-title a {
+      font-size: 24px;
+      font-size: 2.4rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale; } }
 
 .comments-area {
   margin: 40px 0 0; }
