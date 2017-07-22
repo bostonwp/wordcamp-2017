@@ -1171,10 +1171,12 @@ a.cta-button {
   background: #f3f0eb;
   border: 1px solid #dcccb7;
   border-radius: 5px; }
+  .tggr-media-item .tggr-actions {
+    text-align: left; }
 
 .tggr-item-content {
   margin: 0 0 .5em;
-  line-height: 1.6; }
+  line-height: 1.5; }
 
 .tggr-timestamp {
   bottom: 10px;
@@ -1182,11 +1184,19 @@ a.cta-button {
   color: rgba(0, 0, 0, 0.6); }
 
 #tggr-media-item-container .tggr-actions a span {
+  margin-left: 0;
   font-size: 14px;
   color: #B43D0A; }
 
+#tggr-media-item-container .tggr-actions a span + span {
+  margin-left: 2px; }
+
 #tggr-media-item-container .tggr-actions a:hover span {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #9A380E; }
+
+#tggr-media-item-container .tggr-author-profile {
+  color: #514645; }
 
 .tggr-author-name {
   padding-top: 5px;

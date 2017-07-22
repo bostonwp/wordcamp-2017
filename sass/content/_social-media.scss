@@ -8,11 +8,15 @@
 	background: #f3f0eb;
 	border: 1px solid #dcccb7;
 	border-radius: 5px;
+
+	.tggr-actions {
+		text-align: left;
+	}
 }
 
 .tggr-item-content {
 	margin: 0 0 .5em;
-	line-height: 1.6;
+	line-height: 1.5;
 }
 
 .tggr-timestamp {
@@ -22,17 +26,27 @@
 }
 
 #tggr-media-item-container .tggr-actions a span {
+	margin-left: 0;
 	font-size: 14px;
-	color: #B43D0A;
+	color: $red;
+}
+
+#tggr-media-item-container .tggr-actions a span + span {
+	margin-left: 2px;
 }
 
 #tggr-media-item-container .tggr-actions a:hover span {
 	text-decoration: none;
+	color: $red-dark;
+}
+
+#tggr-media-item-container .tggr-author-profile {
+	color: $brown;
 }
 
 .tggr-author-name {
 	padding-top: 5px;
-	color: #514645;
+	color: $brown;
 }
 
 .tggr-author-username {
