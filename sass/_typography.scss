@@ -165,9 +165,11 @@ a.cta-button {
 .entry-content .callout {
 	position: relative;
 	margin-bottom: 15px;
-	padding: 20px;
+	padding: 20px 20px 13px;
 	background: $red;
+	border: 1px solid $red-dark;
 	color: white;
+	border-radius: 5px;
 
 	a {
 		color: white;

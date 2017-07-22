@@ -178,9 +178,11 @@ a.cta-button {
 .entry-content .callout {
   position: relative;
   margin-bottom: 15px;
-  padding: 20px;
+  padding: 20px 20px 13px;
   background: #B43D0A;
-  color: white; }
+  border: 1px solid #9A380E;
+  color: white;
+  border-radius: 5px; }
   .widget .callout a,
   .entry-content .callout a {
     color: white;
@@ -1161,6 +1163,37 @@ a.cta-button {
       letter-spacing: 4px;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale; } }
+
+.page-slug-social-media-stream .entry-content .callout {
+  margin-bottom: 0; }
+
+.tggr-media-item {
+  background: #f3f0eb;
+  border: 1px solid #dcccb7;
+  border-radius: 5px; }
+
+.tggr-item-content {
+  margin: 0 0 .5em;
+  line-height: 1.6; }
+
+.tggr-timestamp {
+  bottom: 10px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6); }
+
+#tggr-media-item-container .tggr-actions a span {
+  font-size: 14px;
+  color: #B43D0A; }
+
+#tggr-media-item-container .tggr-actions a:hover span {
+  text-decoration: none; }
+
+.tggr-author-name {
+  padding-top: 5px;
+  color: #514645; }
+
+.tggr-author-username {
+  color: rgba(0, 0, 0, 0.6); }
 
 .comments-area {
   margin: 40px 0 0; }
